@@ -1,0 +1,33 @@
+html, body, #container {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+
+.carousel {
+	height: 200px;
+}
+
+.image-slide {
+	height: 200px;
+	transition: background-image .3s ease-in-out;
+	margin: 10px;
+	display: block;
+	flex: 1 0 100%;
+}
+
+.slide-arrow {
+	cursor: pointer;
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	color: white;
+}
+
+.slide-arrow.right {
+	right: 2rem;
+}
+
+.slide-arrow.left {
+	left: 2rem;
+}
