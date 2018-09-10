@@ -8,11 +8,14 @@ html, body, #container {
 	height: 200px;
 }
 
+.slide-wrapper {
+	display: flex;
+}
+
 .image-slide {
 	height: 200px;
 	transition: background-image .3s ease-in-out;
 	margin: 10px;
-	display: block;
 	flex: 1 0 100%;
 }
 
